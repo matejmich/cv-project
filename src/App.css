@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0A0F22;
+  color: #F0F4F8;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.settings {
+  color: #F0F4F8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 800px;
+  margin: 0 auto;
+  gap: 10px;
+  
+}
+.resume {
+  margin-top: 50px;
+  width: 21cm;
+  height: 29.7cm;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  
+}
+.resume-header {
+  margin: 0;
+  height: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  color: white;
+}
+.resume-header-left {
+ padding-left: 10%;
+ font-size: 30px;
+}
+.resume-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 10%;
+}
+
+.box {
+  grid-column: span 1;
+  margin: 5px;
+  background-color: #1D2233;
+  min-width: 300px; 
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 15px;
+}
+.color-picker {
+ padding: 0;
+}
+.color-input {
+  min-width: 100%;
+  min-height: 50px;
+  
+  border-radius: 10px;
+  background: none;
+  padding: 0;
+}
+
+input {
+  background-color: #BAC7CC;
+  border: none;
+  color: #0A0F22;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+textarea {
+  background-color: #BAC7CC;
+  color: #0A0F22;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(17, 31, 34);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  max-width: 100%;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainBtn {
+  background-color: rgb(17, 31, 34);
+  border: none;
+  color: #F0F4F8;
+  width: 250px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.11);
+  cursor: pointer;
+}
+
+.banner {
+  width: 700px; 
+  margin: 0 auto;
+  text-align: center; 
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #56B2BB; 
+  color: white; 
+  font-size: 20px;
+}
+.text-container {
+  width: 1fr;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.delete-skill {
+  background: none;
+  color: #BAC7CC;
+  font-weight: bold;
+  border: none;
+}
+.delete-skill:hover {
+  color: red;
+}
+
+#skillsS {
+  justify-content: start;
+}
+.about-info {
+  color: #1D2233;
+  font-weight: 500;
+  padding: 1%;
+}
+#skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: st;
+}
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+  object-position: center;
+}
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-input {
+  background-color: rgb(17, 31, 34);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.custom-file-input:hover {
+  background-color: rgba(255, 255, 255, 0.11);
+}
